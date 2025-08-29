@@ -22,10 +22,10 @@ public class Cavaleiro extends Principal{
         this.setIdade(26);
 
     }
-@Override
-    public void exibir2(){
-        System.out.println("O nome do campeão escolhido é " + getNome() + "\n Sua classe é " + getClasse() + " e ele usa " +getArma() + " como arma.\n " );
 
+    public void exibirCavaleiro(){
+        System.out.println("O nome do campeão escolhido é " + getNome() + "\nSua classe é " + getClasse() + " e ele usa " +getArma() + " como arma." );
+        System.out.println("Sua idade é: " + getIdade() + "\nsua vida é: " + getVida() + " e sua energia é de: " + getEnergia());
     }
 
 

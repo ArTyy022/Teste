@@ -16,20 +16,20 @@ public class Main  {
         System.out.println("1 Cavaleiro");
         System.out.println("2 Arqueiro");
         System.out.println("3 Barbaro");
-        scanner.nextInt();
+        int escolha = scanner.nextInt();
 
 
         Barbaro barbaro = new Barbaro();
         Arqueiro arqueiro = new Arqueiro();
         Cavaleiro cavaleiro = new Cavaleiro();
 
-        int escolha = 0;
+
         if (escolha == 1 ){
-            cavaleiro.exibir2();
+            cavaleiro.exibirCavaleiro();
         } else if (escolha == 2) {
-            System.out.println("O nome do seu campeão é: " + arqueiro.getNome() +   " sua classe é : ");
+            arqueiro.exibirArqueiro();
         } else if (escolha == 3){
-            System.out.println("O nome do seu campeão é: " + barbaro.getNome() +   " sua classe é : ");
+            barbaro.exibirBarbaro();
         }
 
 
