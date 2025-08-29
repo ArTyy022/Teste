@@ -13,9 +13,9 @@ public class Main  {
 
         System.out.println("Escolha um campeão");
         
-        System.out.println("1 Barbaro");
+        System.out.println("1 Cavaleiro");
         System.out.println("2 Arqueiro");
-        System.out.println("3 Cavaleiro");
+        System.out.println("3 Barbaro");
         scanner.nextInt();
 
 
@@ -25,15 +25,14 @@ public class Main  {
 
         int escolha = 0;
         if (escolha == 1 ){
-            barbaro.exibirBarbaro();
-            System.out.println("O nome do seu campeão é: " + barbaro.getNome() + " sua classe é : " + barbaro.getClasse());
+            cavaleiro.exibir2();
         } else if (escolha == 2) {
-            System.out.println();
+            System.out.println("O nome do seu campeão é: " + arqueiro.getNome() +   " sua classe é : ");
         } else if (escolha == 3){
-            System.out.println();
+            System.out.println("O nome do seu campeão é: " + barbaro.getNome() +   " sua classe é : ");
         }
 
-    principal.exibir2();
+
 
 
 

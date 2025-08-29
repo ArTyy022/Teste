@@ -75,7 +75,7 @@ public class Principal {
 
 
     public void exibir2 (){
-        System.out.println("O nome do seu campeão é " + nome + "\n sua classe é: " + classe);
+
 
     }
 
